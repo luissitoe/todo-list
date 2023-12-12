@@ -1,0 +1,34 @@
+.todo__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  border: 0.2rem solid #f8f8f8;
+  border-radius: 1.5rem;
+  padding: 0 2rem;
+}
+
+.todo__item-container {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.todo__items-text {
+  padding-left: 1rem;
+  color: #404040;
+}
+
+.todo__icon {
+  font-size: 2.2rem;
+  color: #7d0df5;
+  cursor: pointer;
+}
+
+.todo__remove {
+  color: #ef5151;
+}
+
+.todo__items-text.line-through {
+  text-decoration: line-through solid #7d0df5 0.2rem;
+}

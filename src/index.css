@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f7f8fc;
+  background-size: cover;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
